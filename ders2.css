@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+h1 {
+    text-align: center;
+    background-color: green;
+    color: white;
+    margin: 15px;
+}
+
+.box-alert {
+    background-color: red;
+    color: white;
+    margin: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+p {
+    background-color: yellow;
+    color: black;
+    margin: 10px;
+}
+
+.box-primary {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+}
+
+.box-secondary {
+    background-color: gray;
+    color: white;
+    padding: 10px;
+}
+
+.box-background {
+    background: url('https://i.pinimg.com/736x/6f/c9/a2/6fc9a2e11f72bc594eeec013c4c2e60d.jpg');
+    background-size: cover;
+    width: 500px;
+    height: 300px;
+    color: lightsalmon;
+    padding: 20px;
+}
+
+.box-centered {
+    border: 2px dashed red;
+    width: 100px;
+    height: 100px;
+    margin: 50px auto;
+    padding: 20px;
+    color: rgb(255, 127, 223);
+    background: linear-gradient(to right, red, blue);
+    text-align: center;
+}
+
+button {
+    background-color: #00fffb;
+    color: white;
+    border: none;
+    padding: 20px 30px;
+    font-size: 15px;
+    font-style: italic;
+    cursor: pointer;
+    border-radius: 15px;
+    transition: background-color 0.4s ease;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: #00ff6a;
+}
+
+.box-mixed {
+    border: 3px solid rgb(0, 100, 128);
+    width: 100px;
+    height: 100px;
+    background-color: rgba(0, 0, 255, 0.5);
+    margin: 50px 10px;
+}
+
+#unique-box {
+    background-color: lightblue;
+    margin: 100px;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+}
